@@ -20,9 +20,14 @@ function pressIt() {
   });
 }
 
+function submitIt() {
+  
+}
+
 $(document).ready(function(){
 // call functions when page loads
   getIt();
   frameIt();
   pressIt();
+  submitIt();
 });
